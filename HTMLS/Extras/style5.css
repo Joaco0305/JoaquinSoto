@@ -1,0 +1,77 @@
+*{
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #E0F7FA;
+    text-align: center;
+}.titulo{
+    text-align: center;
+    font-size: 40px;
+    color: darkcyan;
+    padding: 25px;
+    margin: 0 0 20px;
+}
+.section{
+    width: 100%;
+    padding: 20px;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+}
+.color{
+    background-color: #003f5c;
+    color: #BBDEFB;
+    font-size: 5rem;
+}
+.gradiente{
+    background: radial-gradient(circle, #81D4FA,#01579B);
+    color: darkcyan;
+    font-size: 5rem;
+}
+.imagen{
+    background: url(../../Imagenes/993fefa0c5d4ef228b889f6538762fd7marble.jpg);
+    background-size: cover;
+    color: black;
+    font-size: 5rem;
+}
+
+.navegador{
+    padding: 5px auto ;
+    text-align: center;
+    font-size: 20px;
+}
+.ante{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px 50px 5px 50px;
+}
+.home{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px 50px 5px 50px;
+}
+.next{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px 50px 5px 50px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: #0277BD;
+}
+
+a:hover {
+    color: #003f5c;
+}
+
+a:active {
+    color: #4c00ff;
+}

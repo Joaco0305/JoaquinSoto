@@ -1,0 +1,154 @@
+*{
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #E0F7FA;
+    text-align: center;
+}
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    color: darkcyan;
+    padding: 25px;
+    margin: 0 0 20px;
+}
+.section{
+    display: flex;
+    gap: 40px;
+    border: 2px solid black;
+    border-radius: 16px;
+    margin: 10px auto;
+    width: 100%;
+}
+.section1{
+    background-color: #B2EBF2;
+}
+.c1{
+    width: 100px;
+    height: 100px;
+    margin: 15px auto;
+    background-color: #0277BD;
+    box-shadow: 10px 10px 0px 0px #003f5c;
+}
+.c2{
+    width: 100px;
+    height: 100px;
+    margin: 15px auto;
+    background-color: #0277BD;
+    box-shadow: 0px 10px 10px 0px #003f5c;
+}
+.c3{        
+    width: 100px;
+    height: 100px;
+    margin: 15px auto;
+    background-color: #0277BD;
+    box-shadow: 10px 10px 10px 0px #003f5c;
+}
+.c4{
+    width: 100px;
+    height: 100px;
+    margin: 15px auto;
+    background-color: #0277BD;
+    box-shadow: 10px 10px 0px 0px #003f5c;
+}
+.c5{
+    width: 100px;
+    height: 100px;
+    margin: 15px auto;
+    background-color: #0277BD;
+    box-shadow: -10px -10px 10px 0px #003f5c;
+}
+.section2{
+    background-color: #4DD0E1
+}
+.img{
+    width: 100px;
+    height: 150px;
+    margin: 20px auto;
+    border: none;
+    outline: none;
+}
+.i1{
+    box-shadow: 10px 0px 10px 0px #003f5c;
+}
+.i2{
+    box-shadow: 0px 10px 10px 0px #003f5c;
+}
+.i3{
+    box-shadow: 10px 10px 10px 0px #003f5c;
+}
+.i4{
+    box-shadow: 10px 10px 0px 0px #003f5c;
+}
+.i5{
+    box-shadow: -10px -10px 10px 0px #003f5c;
+}
+.section3{
+    background-color: #00ACC1;
+}
+/* Aca una pequeña aclaracion, las imagenes estan en formato png pero siempre me salen con borde,  al investigar me sale que puede ser por tema de un borde heredado o un outline, por eso agrege las propiedades de border y outline none pero no pasa nada, por mas que cambio a diferentes imagenes el resultado es el mismo  */
+.png1{
+    border: none;
+    outline: none;
+    filter: drop-shadow(20px 0px 10px #003f5c);
+}
+.png2{
+    border: none;
+    outline: none;
+    filter: drop-shadow(0px 20px 10px #003f5c);
+}
+.png3{
+    border: none;
+    outline: none;
+    filter: drop-shadow(20px 20px 10px #003f5c);
+}
+.png4{
+    border: none;
+    outline: none;
+    filter: drop-shadow(-20px 0px 10px #003f5c);
+}
+.png5{
+    border: none;
+    outline: none;
+    filter: drop-shadow(0px -20px 10px #003f5c);
+}
+.navegador{
+    padding: 5px auto ;
+    text-align: center;
+    font-size: 20px;
+}
+.ante{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px 50px 5px 50px;
+}
+.home{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px 50px 5px 50px;
+}
+.next{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px 50px 5px 50px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: #0277BD;
+}
+
+a:hover {
+    color: #003f5c;
+}
+
+a:active {
+    color: #4c00ff;
+}

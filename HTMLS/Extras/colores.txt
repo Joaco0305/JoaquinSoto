@@ -1,0 +1,49 @@
+colores
+Caja 1
+
+Fondo: #B2EBF2
+
+Texto: #006064
+
+Caja 2
+
+Fondo: #4DD0E1
+
+Texto: #004D60
+
+Caja 3
+
+Fondo: #00ACC1
+
+Texto: #E0F7FA
+
+Caja 4
+
+Fondo: #007C91
+
+Texto: #B2EBF2
+
+Caja 5
+
+Fondo: #0288D1
+
+Texto: #E1F5FE
+
+Caja 6
+
+Fondo: #0277BD
+
+Texto: #B3E5FC
+
+Caja 7
+
+Fondo: #01579B
+
+Texto: #81D4FA
+
+Caja 8
+
+Fondo: #003f5c
+
+Texto: #BBDEFB
+

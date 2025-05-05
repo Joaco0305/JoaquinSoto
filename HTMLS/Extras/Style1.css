@@ -1,0 +1,89 @@
+*{
+    color: #004D60;
+    font-family: fantasy;
+    font-size: 25px;
+    background-color: #E0F7FA;
+}
+h3{
+    color: #006064;
+    font-family: sans-serif;
+    font-size: 30px;
+    background-color: #B2EBF2;
+}
+.clase{
+    color: #004D60;
+    font-family: cursive;
+    font-size: 40px;
+    background-color: #4DD0E1;
+}
+#ID{
+    color: #E0F7FA;
+    font-family: serif;
+    font-size: 50px;
+    background-color: #00ACC1;
+}
+[href="https://www.youtube.com"]{
+    color: #007C91;
+    font-family: monospace;
+    font-size: 60px;
+    background-color: #B2EBF2;
+    padding: 5px 25px 5px 25px;
+}
+[href="https://www.facebook.com"]{
+    color: #E1F5FE;
+    font-family: monospace;
+    font-size: 60px;
+    background-color: #0288D1;
+    padding: 5px 25px 5px 25px;   
+}
+[href="https://www.canva.com"]{
+    color: 	#B3E5FC;
+    font-family: monospace;
+    font-size: 60px;
+    background-color: #0277BD;
+    padding: 5px 25px 5px 25px;   
+}
+[href="https://www.blender.org"]{
+    color: #81D4FA;
+    font-family: monospace;
+    font-size: 60px;
+    background-color: #01579B;
+    padding: 5px 25px 5px 25px;   
+}
+h1{
+    color: #004D60;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+    text-align: center;
+    background-color: #a8ecf5 
+}
+.home{
+    background-color: darkcyan;
+    border-width: 5px;
+    border-style: solid;
+    border-color: darkcyan;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px 50px 5px 50px;
+}
+[href="../Index.html"]{
+    background-color: darkcyan;
+    color: white;
+}
+.next{
+    background-color: darkcyan;
+    border-width: 5px;
+    border-style: solid;
+    border-color: darkcyan;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px 50px 5px 50px;
+}
+[href="Basica2.html"]{
+    background-color: darkcyan;
+    color: white;
+}
+i{
+    color: white;
+    background-color: darkcyan;
+}   

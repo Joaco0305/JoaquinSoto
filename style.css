@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #B2EBF2;
+    color: #006064;
+}
+
+header {
+    background-color: #4DD0E1;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.practicas {
+    flex: 1;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+details {
+    background-color: #E1F5FE;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.foto {
+    flex: 0 0 20%;
+}
+
+.foto img {
+    width: 250px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: #0277BD;
+}
+
+a:hover {
+    color: #003f5c;
+}
+
+a:active {  
+    color: #4c00ff;
+}
+
+footer {
+    background-color: #4DD0E1;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.3rem;
+}

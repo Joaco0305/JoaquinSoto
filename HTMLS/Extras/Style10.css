@@ -1,0 +1,85 @@
+*{
+    background-color: #E0F7FA;
+    text-align: center;
+    font-family: "Cal Sans", sans-serif;
+}.titulo{
+    text-align: center;
+    font-size: 40px;
+    color: darkcyan;
+    padding: 25px;
+    margin: 0 0 20px;
+}
+.section{
+    padding: 1rem;
+    width: 100%;
+}
+.section1__minw{
+    padding: 1rem;
+    margin: 1rem auto;
+    min-width: 250px;
+    background-color: #00ACC1;
+}
+.section1__maxw{
+    padding: 1rem;
+    margin: 1rem auto;
+    max-width: 350px;
+    background-color: #0288D1;
+}
+.section2__min{
+    padding: 1rem;
+    margin: 1rem auto;
+    background-color: #0277BD;
+    width: min(400px, 100%);
+}
+.section2__max{
+    padding: 1rem;
+    margin: 1rem auto;
+    width: max(400px, 100%);
+    background-color: #81D4FA;
+}
+.section2__clamp{
+    padding: 1rem;
+    margin: 1rem auto;
+    background-color: #81D4FA;
+    width: clamp(100px, 100%, 500px);
+}
+.navegador{
+    padding: 5px auto ;
+    text-align: center;
+    font-size: 20px;
+}
+.ante{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px 50px 5px 50px;
+}
+.home{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px 50px 5px 50px;
+}
+.next{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px 50px 5px 50px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: #0277BD;
+}
+
+a:hover {
+    color: #003f5c;
+}
+
+a:active {
+    color: #4c00ff;
+}
